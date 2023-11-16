@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/co"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <Button
+        android:id="@+id/Add_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="add_Employee"
+        android:text="Add to the list" />
+
+
+    <EditText
+        android:id="@+id/Employee_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/Employee_Age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/Employee_Salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Salary"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/Employee_Position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="position"
+        android:textColor="@color/white" />
+
+
+    <ListView
+        android:id="@+id/My_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:choiceMode="multipleChoice"
+        android:outlineAmbientShadowColor="#FF5722" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
